@@ -47,7 +47,7 @@ Two safety lines run through the design:
 
 You need Switch Console with the local server running (Mattermost bridge),
 Claude Code signed in, Node.js 20+, Python 3, and the
-[level-engine](../level-engine) checkout next to this folder.
+[level-engine](https://github.com/teguhirvan85-hue/level-engine) checkout next to this folder.
 
 ```bash
 bash ../level-engine/agents/register.sh   # once: registers Checker and Scorekeeper
@@ -85,7 +85,7 @@ The hackathon rules allow existing agents, libraries and templates, as long
 as the Switch setup and the workflow are built during the event. To be clear
 about which is which:
 
-**Before the event (27 Oct – 3 Nov), in [level-engine](../level-engine):**
+**Before the event (27 Oct – 3 Nov), in [level-engine](https://github.com/teguhirvan85-hue/level-engine):**
 the game, the `level-room/1` format, the simulation, the checker and
 difficulty rating, the simulated players, the publish/playtest/report tools,
 and the two custom agents (Checker, Scorekeeper). A private rehearsal of an
