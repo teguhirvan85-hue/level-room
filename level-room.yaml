@@ -57,9 +57,14 @@ resources:
       - One sentence on what you built and why it fits the idea.
       - Then exactly one ```json block holding the whole level, with "author"
         set to the person's name.
+      - Make it a proper run: 650 to 950 metres and 25 to 40 segments, so a
+        clean run lasts 35 to 50 seconds. Build it in three acts that get
+        harder: a warm-up, a middle with a checkpoint, and a final stretch
+        with the hardest combination just before a boosted run-in to the
+        finish. Add one or two checkpoints.
       - Aim for difficulty 5 to 7 out of 10: a fair first run, a real
         challenge for a clean run. A clean run takes roughly length / 18
-        seconds; set timeLimit to about 1.5 times that.
+        seconds; set timeLimit to about 1.4 times that.
       - Pick the theme and weather that match the idea.
 
       The Checker replies to every level. On FAIL, fix exactly the problems it
