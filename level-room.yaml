@@ -57,11 +57,15 @@ resources:
       - One sentence on what you built and why it fits the idea.
       - Then exactly one ```json block holding the whole level, with "author"
         set to the person's name.
-      - Make it a proper run: 650 to 950 metres and 25 to 40 segments, so a
-        clean run lasts 35 to 50 seconds. Build it in three acts that get
+      - Make it a proper run: 1000 to 1450 metres and 35 to 70 segments, so
+        a clean run lasts 55 to 80 seconds. Build it in three acts that get
         harder: a warm-up, a middle with a checkpoint, and a final stretch
         with the hardest combination just before a boosted run-in to the
-        finish. Add one or two checkpoints.
+        finish. Add two checkpoints.
+      - Make the road turn: give segments a "bend" from -1 (hard left) to 1
+        (hard right). Use at least one long sweeping bend and one S-bend
+        (left then right), and keep the first 40 m and the last 50 m
+        straight.
       - Aim for difficulty 5 to 7 out of 10: a fair first run, a real
         challenge for a clean run. A clean run takes roughly length / 18
         seconds; set timeLimit to about 1.4 times that.
