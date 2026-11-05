@@ -7,7 +7,7 @@ it decides what the next version fixes.**
 Level Room is a [Switch](https://github.com/sandbox-quantum/switch) template:
 two rooms, four agents, and one person who approves what goes live.
 
-**Demo video (2:25, with narration):** https://youtu.be/VE6JquRkVKA
+**Demo video (2:26, narrated, with captions):** https://youtu.be/wJWKDcBzswA
 **Play the levels:** https://level-room.vercel.app
 
 ![A level built from a chat idea: rainy motorway at night, coins, a checkpoint and a bending road](docs/media/gameplay.gif)
