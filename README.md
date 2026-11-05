@@ -7,6 +7,15 @@ it decides what the next version fixes.**
 Level Room is a [Switch](https://github.com/sandbox-quantum/switch) template:
 two rooms, four agents, and one person who approves what goes live.
 
+**Demo video (96 s):** https://youtu.be/PD1EI6S2-nQ
+**Play the levels:** https://level-room.vercel.app
+
+![A level built from a chat idea: rainy motorway at night, coins, a checkpoint and a bending road](docs/media/gameplay.gif)
+
+*A 1272 m level the Designer built from one line in chat, recorded in the
+browser. Levels run 1000 to 1450 m (about a minute), in three acts with two
+checkpoints, and the road bends: long sweepers and S-bends.*
+
 ```
  arcade (public)                      workshop (private)
  ───────────────                      ──────────────────
@@ -79,6 +88,12 @@ most of them fail, publishes a v2 that changes only that spot, and compares
 the clean-run rate (Canopy Dash: 80% → 90%). Real players' runs land in the
 same report, and reports always say how many runs were simulated.
 
+In the demo video the whole loop runs live in Switch Console: one idea in
+the arcade became a 1272 m level (Checker PASS, difficulty 7/10). After 30
+simulated players, 87% finished and 63% ran clean. The Designer's v2 changed
+six trouble spots named in the report, and the next 30 runs reached 93%
+finished and 70% clean.
+
 ## What was built when
 
 The hackathon rules allow existing agents, libraries and templates, as long
@@ -95,7 +110,9 @@ this repo and none of its files were copied.
 **During the event (from 4 Nov), in this repo:** the Level Room template
 (`level-room.yaml`: rooms, agents, their instructions and permissions, the
 v2 loop, the playtest command), the setup and launch scripts, and the docs.
-The git history of this repo starts on 4 Nov.
+The git history of this repo starts on 4 Nov. Engine changes made during the
+event for this template (longer levels, bending roads, the new look, wall
+and finish fixes) are dated commits in level-engine from 4 Nov on.
 
 ## Files
 
